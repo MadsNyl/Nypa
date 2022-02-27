@@ -14,7 +14,7 @@
 
     <!-- header -->
     <header
-        class="sm:w-full w-full sticky top-0 flex justify-between items-center py-3 shadow z-10 bg-white"
+        class="w-full sticky top-0 flex justify-between items-center py-3 shadow z-10 bg-white"
     >
         <nav
             class="flex items-center space-x-12 ml-12"
@@ -68,18 +68,18 @@
         class="w-full px-3 pt-3"
     >
         <div
-            class="relative w-full bg-stone-200 text-stone-600 rounded-xl h-screen "
+            class="px-10 relative w-full bg-stone-200 text-stone-600 rounded-xl h-screen"
         >
             <div
-                class=" text-center space-y-4 pt-52"
+                class=" text-center space-y-4 pt-52 px-4 sm:space-y-8"
             >
                 <h1
-                    class="text-6xl font-bold uppercase"
+                    class="text-3xl sm:text-6xl font-bold uppercase pb-12"
                 >
                     velkommen til nypa
                 </h1>
                 <h3
-                    class="text-3xl font-semibold uppercase"
+                    class="text-xl sm:text-4xl font-semibold uppercase"
                 >
                     nydalens lokale storkiosk
                 </h3>
@@ -87,30 +87,31 @@
                 <div
                     class="absolute w-3/4 h-28 -bottom-12 left-1/2 -translate-x-1/2 bg-white rounded-t-3xl flex justify-center items-center"
                 >
+
                     <div
-                        class="flex items-center flex-wrap space-x-20 pt-12 text-lg text-gray-400 uppercase"
+                        class="w-full px-12 sm:px-20 flex items-center justify-between sm:pt-20 sm:text-xl text-gray-400 uppercase"
                     >
-                        <div
-                            class="space-y-4"
-                        >
-                            <i class="fa-solid fa-burger text-stone-500 text-4xl"></i>
-                            <h1>
+                        <div class="space-y-3">
+                            <i class="fa-solid fa-burger text-xl sm:text-4xl text-stone-400"></i>
+                            <h1
+                                class=" hidden sm:block"
+                            >
                                 varmretter
                             </h1>
                         </div>
-                        <div
-                            class="space-y-4"
-                        >
-                            <i class="fa-solid fa-heart text-red-500 text-4xl"></i>
-                            <h1>
+                        <div class="space-y-3">
+                            <i class="fa-solid fa-heart text-red-500 text-xl sm:text-4xl"></i>
+                            <h1
+                                class=" hidden sm:block"
+                            >
                                 varm velkomst
                             </h1>
                         </div>
-                        <div
-                            class="space-y-4"
-                        >
-                            <i class="fa-solid fa-basket-shopping text-stone-500 text-4xl"></i>
-                            <h1>
+                        <div class="space-y-3">
+                            <i class="fa-solid fa-basket-shopping text-xl sm:text-4xl text-stone-400"></i>
+                            <h1
+                                class=" hidden sm:block"
+                            >
                                 dagligvarer
                             </h1>
                         </div>
@@ -120,33 +121,33 @@
         </div>
     </section>
 
-    <!-- student section -->
+    <!-- about section -->
     <section
         id="about"
-        class="w-full bg-white px-3 pt-20 mt-20"
+        class="w-full bg-white px-3 pt-20 mt-20 sm:mt-28 sm:pt-44 pb-12"
     >
 
         <div
-            class="flex h-96 justify-around items-center flex-wrap"
+            class="px-12 sm:flex sm:space-x-8 sm:px-4"
         >
 
             <!-- location -->
             <div
-                class="max-w-sm space-y-5"
+                class="max-w-sm space-y-5 mt-12 sm:mt-0"
             >
                 <div
                     class="flex items-center space-x-6"
                 >
-                    <i class="fa-solid fa-location-dot text-4xl text-sky-600"></i>
+                    <i class="fa-solid fa-location-pin text-2xl sm:text-4xl text-sky-600"></i>
                     <h1
-                        class="text-gray-800 font-bold text-4xl"
+                        class="text-gray-800 font-bold text-2xl sm:text-4xl"
                     >
                         Campus G12
                     </h1>
                 </div>
                 <div>
                     <p
-                        class="text-lg leading-relaxed"
+                        class="text-md sm:text-lg leading-relaxed"
                     >
                         Du finner oss på Gjerdrums vei 12, rett under Campus G12. Her er du alltid hjertelig velkommen, for en prat eller for mat. 
                     </p>
@@ -155,21 +156,21 @@
 
             <!-- student discount -->
             <div
-                class="max-w-sm space-y-5"
+                class="max-w-sm space-y-5 mt-12 sm:mt-0"
             >
                 <div
                     class="flex items-center space-x-6"
                 >
-                    <i class="fa-solid fa-percent text-4xl text-sky-600"></i>
+                    <i class="fa-solid fa-percent text-2xl sm:text-4xl text-sky-600"></i>
                     <h1
-                        class="text-gray-800 font-bold text-4xl"
+                        class="text-gray-800 font-bold text-2xl sm:text-4xl"
                     >
                         Studentrabatt
                     </h1>
                 </div>
                 <div>
                     <p
-                        class="text-lg leading-relaxed"
+                        class="text-md sm:text-lg leading-relaxed"
                     >
                         Er du student, eller beboer hos Campus G12? Kos deg med ekstra gode tilbud! Du får <span class="font-bold text-xl  text-green-500">15%</span> rabatt på alt du finner hos oss. Vær så god!
                     </p>
@@ -178,21 +179,21 @@
 
             <!-- takeaway -->
             <div
-                class="max-w-sm space-y-5"
+                class="max-w-sm space-y-5 mt-12 sm:mt-0"
             >
                 <div
                     class="flex items-center space-x-6"
                 >
-                    <i class="fa-solid fa-square-phone text-4xl text-sky-600"></i>
+                    <i class="fa-solid fa-square-phone text-2xl sm:text-4xl text-sky-600"></i>
                     <h1
-                        class="text-gray-800 font-bold text-4xl"
+                        class="text-gray-800 font-bold text-2xl sm:text-4xl"
                     >
                         Takeaway
                     </h1>
                 </div>
                 <div>
                     <p
-                        class="text-lg leading-relaxed"
+                        class="text-md sm:text-lg leading-relaxed"
                     >
                         Dårlig tid? Vil ha maten klar for å plukke opp i farten? Vi har takeaway, ring oss så gjør vi alt klart til du kommer.
                     </p>
@@ -204,7 +205,7 @@
     <!-- menu section -->
     <section
         id="menu"
-        class="w-full bg-white px-3 pt-20 mt-20 pb-12"
+        class="w-full bg-white px-3 pt-20 sm:pt-28 mt-20 sm:mt-28 pb-12"
     >
         <div
             class="w-full rounded-xl bg-stone-200 text-stone-600 py-12 px-8"
@@ -214,7 +215,7 @@
             class="w-full text-center pb-12"
         >
             <h1
-                class="font-bold text-4xl uppercase"
+                class="font-bold text-3xl sm:text-5xl uppercase"
             >
                 Vår meny
             </h1>
@@ -226,29 +227,33 @@
                 class="flex justify-around items-center py-4 border border-gray-500"
             >
                 <div
-                    class="flex items-center space-x-6"
+                    class="flex items-center space-x-2 sm:space-x-6"
                 >
                     <h1
-                        class="font-bold text-4xl text-stone-500"
+                        class="font-bold text-xl text-stone-500"
                     >
                         1
                     </h1>
                     <h1
-                        class="font-semibold text-xl"
+                        class="font-semibold text-md sm:text-xl"
                     >
                         Rett 1
                     </h1>
                 </div>
 
-                <div>
-                    <p>
+                <div
+                    class="w-44 sm:w-72"
+                >
+                    <p
+                        class="text-sm sm:text-lg"
+                    >
                         en beskrivelse av hva som er i retten
                     </p>
                 </div>
 
                 <div>
                     <h1
-                        class="font-bold text-2xl"
+                        class="font-bold text-lg sm:text-xl"
                     >
                         65
                     </h1>
@@ -258,29 +263,33 @@
                 class="flex justify-around items-center py-4 border border-stone-500"
             >
                 <div
-                    class="flex items-center space-x-6"
+                    class="flex items-center space-x-2 sm:space-x-6"
                 >
                     <h1
-                        class="font-bold text-4xl text-stone-500"
+                        class="font-bold text-xl text-stone-500"
                     >
                         2
                     </h1>
                     <h1
-                        class="font-semibold text-xl"
+                        class="font-semibold text-md sm:text-xl"
                     >
                         Rett 2
                     </h1>
                 </div>
 
-                <div>
-                    <p>
+                <div
+                    class="w-44 sm:w-72"
+                >
+                    <p
+                        class="text-sm sm:text-lg"
+                    >
                         en beskrivelse av hva som er i retten
                     </p>
                 </div>
 
                 <div>
                     <h1
-                        class="font-bold text-2xl"
+                        class="font-bold text-lg sm:text-xl"
                     >
                         65
                     </h1>
@@ -290,29 +299,33 @@
                 class="flex justify-around items-center py-4 border border-gray-500"
             >
                 <div
-                    class="flex items-center space-x-6"
+                    class="flex items-center space-x-2 sm:space-x-6"
                 >
                     <h1
-                        class="font-bold text-4xl text-stone-500"
+                        class="font-bold text-xl text-stone-500"
                     >
                         3
                     </h1>
                     <h1
-                        class="font-semibold text-xl"
+                        class="font-semibold text-md sm:text-xl"
                     >
                         Rett 3
                     </h1>
                 </div>
 
-                <div>
-                    <p>
+                <div
+                    class="w-44 sm:w-72"
+                >
+                    <p
+                        class="text-sm sm:text-lg"
+                    >
                         en beskrivelse av hva som er i retten
                     </p>
                 </div>
 
                 <div>
                     <h1
-                        class="font-bold text-2xl"
+                        class="font-bold text-lg sm:text-xl"
                     >
                         65
                     </h1>
@@ -330,12 +343,12 @@
             class="space-y-5"
         >
             <h1
-                class="text-2xl py-2 border-b border-white"
+                class="text-lg sm:text-3xl py-2 border-b border-white"
             >
                 Kontakt oss
             </h1>
             <h3
-                class="text-xl"
+                class="text-sm sm:text-xl"
             >
                 919 99 131
             </h3>
@@ -344,12 +357,12 @@
             class="space-y-5"
         >
             <h1
-                class="text-2xl py-2 border-b border-white"
+                class="text-lg sm:text-3xl py-2 border-b border-white"
             >
                 Finn oss her
             </h1>
             <h3
-                class="text-xl"
+                class="text-sm sm:text-xl"
             >
                 Gjerdrums vei 12
             </h3>
